@@ -44,7 +44,7 @@ Song.genre_count
 Should return something like this;
 
 ```ruby
-{"rap" => 5, "rock" => 1, "country" => 3}
+{ "rap" => 5, "rock" => 1, "country" => 3 }
 ```
 
 Lastly, we want our `Song` class to reveal to us the number of songs each artist
@@ -122,7 +122,7 @@ that have that genre.
 
 ```ruby
 Song.genre_count
-  # => {"rap" => 5, "rock" => 1, "country" => 3}
+# => {"rap" => 5, "rock" => 1, "country" => 3}
 ```
 
 This manner of displaying numerical data is called a
